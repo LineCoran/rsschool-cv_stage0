@@ -1,6 +1,7 @@
 # Kuzmichev Alexei #
-
 ### Trainee Frontend Developer ###
+
+![My photo](/img/myphoto.png)
 
 ## Contact information: ##
 
