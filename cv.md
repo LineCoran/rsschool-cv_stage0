@@ -16,15 +16,14 @@ I want to learn web programming.
 
 ## Skills: ##
 
-*HTML, CSS
-*JavaScript Basic
-*Git/GitHub
+* HTML, CSS
+* JavaScript Basic
+* Git/GitHub
 
 ## Code example: ##
 
-### Kata from CodeWars ###
+### Kata from CodeWars: Count strings in objects: ###
 
-**Count strings in objects:**
 *Create a function strCount (takes an object as argument) that will count all string values inside an object. For example:*
 ```
 strCount({
@@ -58,6 +57,6 @@ function strCount(obj){
     
 ## Languages ##
 
-*Russian - **native**
-*English - **A2**
+* Russian - __native__
+* English - __A2__
 
