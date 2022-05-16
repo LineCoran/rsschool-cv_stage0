@@ -1,7 +1,7 @@
 # Kuzmichev Alexei #
 ### Trainee Frontend Developer ###
 
-![My photo](/img/myphoto.png)
+![My photo](img/myphoto.png)
 
 ## Contact information: ##
 
@@ -49,6 +49,11 @@ function strCount(obj){
       return count;
 }
 ```
+## My projects ##
+
+My little project - [_Creating fractales_](https://linecoran.github.io/fractales)
+
+
 ## Education ##
 
 * __Belarusation State University of Transport__ - _2016-2021_
