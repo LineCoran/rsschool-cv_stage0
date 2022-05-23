@@ -38,7 +38,9 @@ And right now, my goal is to become a professional front-end developer.
 ### Kata from CodeWars: Count strings in objects: ###
 
 *Create a function strCount (takes an object as argument) that will count all string values inside an object. For example:*
+
 ```JavaScript
+
 strCount({
       first: "1",
       second: "2",
@@ -46,12 +48,13 @@ strCount({
       fourth: ["anytime",2,3,4],
       fifth:  null
     })
-  //returns 3  
+  // return 3 
 ```  
 
 **My solution:**
 
 ```JavaScript
+
 function strCount(obj){
       let count = 0;
       for (key in obj) {
