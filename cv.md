@@ -1,27 +1,40 @@
-# Kuzmichev Alexei #
-### Trainee Frontend Developer ###
+# Kuzmichev Alexei
+### Frontend Developer
 
-![My photo](img/myphoto.png)
+[➡contacts](#contacts) | [➡about me](#about-me) | [➡skills](#skills) | [➡code example](#code-example) | [➡education](#education-and-courses) | [➡language](#language)
 
-## Contact information: ##
+---
 
-* Adress: Minsk, Belarus
-* Phone: +375(44)514-18-08
-* E-mail: linecoran@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/alexey-kuzmichev-4a5471239/)
-* [GitHub](https://github.com/LineCoran)
-* [CodeWars](https://www.codewars.com/users/LineCoran)
+## Contacts
 
-## About me: ##
-I want to learn web programming.
+- * Adress: Minsk, Belarus
+- * Phone: +375(44)514-18-08
+- * E-mail: linecoran@gmail.com
+- * [LinkedIn](https://www.linkedin.com/in/alexey-kuzmichev-4a5471239/)
+- * [GitHub](https://github.com/LineCoran)
+- * [CodeWars](https://www.codewars.com/users/LineCoran)
 
-## Skills: ##
+---
+
+## About me
+
+Hello! I'm 23 years old. 
+
+After graduating from the Belarusian State University of Transport, I worked as a railway designer. 
+In the last three months, I discovered web development for myself. 
+And right now, my goal is to become a professional front-end developer.
+
+---
+
+## Skills
 
 * HTML, CSS
 * JavaScript Basic
 * Git/GitHub
 
-## Code example: ##
+---
+
+## Code example
 
 ### Kata from CodeWars: Count strings in objects: ###
 
@@ -49,20 +62,26 @@ function strCount(obj){
       return count;
 }
 ```
-## My projects ##
+---
+
+## Projects
 
 My little project - [_Creating fractales_](https://linecoran.github.io/fractales)
 
+---
 
-## Education ##
+## Education
 
 * __Belarusation State University of Transport__ - _2016-2021_
     * Civil Engineer
 * __Belarusation State University of Transport__ - _2021 - 2023_ 
     * Master of Engineering
     
-## Languages ##
+---    
+    
+## Languages
 
 * Russian - __native__
 * English - __A2__
 
+[⬆⬆⬆](#kuzmihev-alexei)
