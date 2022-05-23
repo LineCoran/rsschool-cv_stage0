@@ -1,7 +1,7 @@
 # Kuzmichev Alexei
 ### Frontend Developer
 
-[➡contacts](#contacts) | [➡about me](#about-me) | [➡skills](#skills) | [➡code example](#code-example) | [➡education](#education)
+[➡contacts](##contacts) | [➡about me](##about-me) | [➡skills](##skills) | [➡code example](##code-example) | [➡education](##education)
 ---
 
 ## Contacts
