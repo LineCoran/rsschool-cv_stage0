@@ -1,18 +1,18 @@
 # Kuzmichev Alexei
 ### Frontend Developer
 
-[➡contacts](#contacts) | [➡about me](#about-me) | [➡skills](#skills) | [➡code example](#code-example) | [➡education](#education-and-courses) | [➡language](#language)
+[➡contacts](#contacts) | [➡about me](#about-me) | [➡skills](#skills) | [➡code example](#code-example) | [➡education](#education) | [➡language](#language)
 
 ---
 
 ## Contacts
 
-- * Adress: Minsk, Belarus
-- * Phone: +375(44)514-18-08
-- * E-mail: linecoran@gmail.com
-- * [LinkedIn](https://www.linkedin.com/in/alexey-kuzmichev-4a5471239/)
-- * [GitHub](https://github.com/LineCoran)
-- * [CodeWars](https://www.codewars.com/users/LineCoran)
+* Adress: Minsk, Belarus
+* Phone: +375(44)514-18-08
+* E-mail: linecoran@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/alexey-kuzmichev-4a5471239/)
+* [GitHub](https://github.com/LineCoran)
+* [CodeWars](https://www.codewars.com/users/LineCoran)
 
 ---
 
@@ -84,4 +84,4 @@ My little project - [_Creating fractales_](https://linecoran.github.io/fractales
 * Russian - __native__
 * English - __A2__
 
-[⬆⬆⬆](#kuzmihev-alexei)
+[⬆⬆⬆](#kuzmichev-alexei)
