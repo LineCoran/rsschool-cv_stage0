@@ -1,8 +1,7 @@
 # Kuzmichev Alexei
 ### Frontend Developer
 
-[➡contacts](#contacts) | [➡about me](#about-me) | [➡skills](#skills) | [➡code example](#code-example) | [➡education](#education) | [➡language](#language)
-
+[➡contacts](#contacts) | [➡about me](#about-me) | [➡skills](#skills) | [➡code example](#code-example) | [➡education](#education)
 ---
 
 ## Contacts
@@ -39,7 +38,7 @@ And right now, my goal is to become a professional front-end developer.
 ### Kata from CodeWars: Count strings in objects: ###
 
 *Create a function strCount (takes an object as argument) that will count all string values inside an object. For example:*
-```
+```JavaScript
 strCount({
       first: "1",
       second: "2",
@@ -52,7 +51,7 @@ strCount({
 
 **My solution:**
 
-```
+```JavaScript
 function strCount(obj){
       let count = 0;
       for (key in obj) {
@@ -79,7 +78,7 @@ My little project - [_Creating fractales_](https://linecoran.github.io/fractales
     
 ---    
     
-## Languages
+## Language
 
 * Russian - __native__
 * English - __A2__
