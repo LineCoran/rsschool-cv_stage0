@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
+
 <body>
-    <h1>It's me</h1>
-    <img src="img/myphoto.png" alt="photo">
+    <header class="header">
+        <nav class="header_nav">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Contacts</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">About me</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Skills</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Code</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Courses</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Projects</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Education</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">English</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="profile">
+                <div class="profile_user">
+                    <img src="assets/myphoto.png" alt="avatar" class="user_avatar">
+                    <div class="user_content">
+                        <h1 class="user_name">Alexey</h1>
+                        <h2 class="user_family">Kuzmichev</h2>
+                        <div class="user_prof">Web Developer</div>
+                    </div>
+                </div>
+                <div class="user_contacts">
+                    <ul class="contact_list">
+                        <li class="contact_item">
+                            <img class="contact_icon" src="assets/linkedin.svg" alt="">
+                            <p class="contact_link"><a href="">LinkedIn</a></p>
+                        </li>
+                        <li class="contact_item">
+                            <img class="contact_icon" src="assets/github.svg" alt="">
+                            <p class="contact_link"><a href="">GitHub</a></p>
+                        </li>
+                        <li class="contact_item">
+                            <img class="contact_icon" src="assets/telegram.svg" alt="">
+                            <p class="contact_link"><a href="">CodeWars</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="information">
+                <div class="information_inner" id="left">
+                    <section id="about">
+                        <h2 class="section_title">
+                            About me
+                        </h2>
+                        <p class="section_inner">
+                            After graduating from the Belarusian State University of Transport, I worked as a railway
+                            designer. In the last three months, I discovered web development for myself. And right now,
+                            my goal is to become a professional front-end developer.
+                        </p>
+                    </section>
+                    <section id="skills">
+                        <h2 class="section_title">
+                            Skills
+                        </h2>
+                        <p class="section_inner">
+                            Html <br>
+                            CSS <br>
+                            JavaScript <br>
+                        </p>
+                    </section>
+                    <section id="eduacation">
+                        <h2 class="section_title">
+                            Education
+                        </h2>
+                        <p class="section_inner">
+                            Belarusation State University of Transport - 2016-2021 <br>
+                            Civil Engineer <br>
+                            Belarusation State University of Transport - 2021 - 2023 <br>
+                            Master of Engineering
+                        </p>
+                    </section>
+                    <section id="language">
+                        <h2 class="section_title">
+                            Language
+                        </h2>
+                        <p class="section_inner">
+                            Russian - native <br>
+                            English - A2 <br>
+                        </p>
+                    </section>
+                </div>
+                <div class="information_inner">
+                    <section class="codeexample">
+                        <h2 class="section_title">
+                            Code Example
+                        </h2>
+                        <p class="section_inner">
+                            <code>
+                                function strCount(obj){
+                                    let count = 0;
+                                    for (key in obj) {
+                                      if (typeof obj[key] == 'string') count++;
+                                      if (typeof obj[key] == 'object') count += strCount(obj[key]);
+                                    }
+                                    return count;
+                              }
+                            </code>
+                        </p>
+                    </section>
+                    <section class="Projects">
+                        <h2 class="section_title">
+                            Projects
+                        </h2>
+                        <p class="section_inner">
+                            <a href="#">My little project</a>
+                        </p>
+                    </section>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+        </div>
+    </footer>
 </body>
+
 </html>

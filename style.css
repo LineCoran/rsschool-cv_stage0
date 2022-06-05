@@ -1,4 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
 body {
-    background-color: blue;
-    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ===== Header ===== */
+
+.header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.nav_list {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_link {
+    color: #2537e9;;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: medium;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+/* ===== Header End ===== */
+
+/* ===== Main  ===== */
+.main {
+    height: 100%;
+}
+
+/* ===== Profile Section ===== */
+
+.profile{
+    height: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.profile_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_avatar {
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+.user_content {
+    color: #2537e9;
+}
+
+.user_name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.user_family {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.user_prof {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contact_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.contact_icon {
+    margin-right: 20px;
+}
+
+
+/* ===== Profile Section END ===== */
+
+/* ===== Information ===== */
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.information_inner {
+    width: 50%;
+}
+#left {
+    margin-right: 100px;
+}
+.section_title {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+    font-size: 24px;
+    font-weight: 500;
+    color: #2537e9;
+
+    border-bottom: solid 1px #000;
+    text-transform: uppercase;
+}
+
+.section_inner {
+    font-size: 16px;
+    color: #000;
+
+    padding-right: 50px;
+    margin-bottom: 60px;
+}
+
+.information_right {
+    padding-left: 50px;
+}
+
+
+
+
+
+
+.footer {
+    height: 200px;
+    
 }
