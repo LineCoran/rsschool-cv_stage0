@@ -15,34 +15,37 @@
 
 <body>
     <header class="header">
-        <nav class="header_nav">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Contacts</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">About me</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Skills</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Code</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Courses</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Projects</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">Education</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#" class="nav_link">English</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="header_nav">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Contacts</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">About me</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Skills</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Code</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Courses</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Projects</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Education</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">English</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
     <main class="main">
         <div class="container">
@@ -50,24 +53,23 @@
                 <div class="profile_user">
                     <img src="assets/myphoto.png" alt="avatar" class="user_avatar">
                     <div class="user_content">
-                        <h1 class="user_name">Alexey</h1>
-                        <h2 class="user_family">Kuzmichev</h2>
-                        <div class="user_prof">Web Developer</div>
+                        <h1 class="user_name">Hi, I'm Alexey</h1>
+                        <div class="user_family">Front-End Developer</div>
                     </div>
                 </div>
                 <div class="user_contacts">
                     <ul class="contact_list">
                         <li class="contact_item">
                             <img class="contact_icon" src="assets/linkedin.svg" alt="">
-                            <p class="contact_link"><a href="">LinkedIn</a></p>
+                            <p class="contact_link"><a href="https://www.linkedin.com/in/alexey-kuzmichev-4a5471239/">LinkedIn</a></p>
                         </li>
                         <li class="contact_item">
                             <img class="contact_icon" src="assets/github.svg" alt="">
-                            <p class="contact_link"><a href="">GitHub</a></p>
+                            <p class="contact_link"><a href="https://github.com/LineCoran">GitHub</a></p>
                         </li>
                         <li class="contact_item">
                             <img class="contact_icon" src="assets/telegram.svg" alt="">
-                            <p class="contact_link"><a href="">CodeWars</a></p>
+                            <p class="contact_link"><a href="https://www.codewars.com/users/LineCoran">CodeWars</a></p>
                         </li>
                     </ul>
                 </div>
@@ -89,31 +91,35 @@
                         <h2 class="section_title">
                             Skills
                         </h2>
-                        <p class="section_inner">
-                            Html <br>
-                            CSS <br>
-                            JavaScript <br>
-                        </p>
+                        <div class="section_inner">
+                            <ul class="skills-list">
+                                <li class="skills-item">Html</li>
+                                <li class="skills-item">CSS</li>
+                                <li class="skills-item">JavaScript</li>
+                            </ul>
+                        </div>
                     </section>
                     <section id="eduacation">
                         <h2 class="section_title">
                             Education
                         </h2>
-                        <p class="section_inner">
+                        <div class="section_inner">
                             Belarusation State University of Transport - 2016-2021 <br>
                             Civil Engineer <br>
                             Belarusation State University of Transport - 2021 - 2023 <br>
                             Master of Engineering
-                        </p>
+                        </div>
                     </section>
                     <section id="language">
                         <h2 class="section_title">
                             Language
                         </h2>
-                        <p class="section_inner">
-                            Russian - native <br>
-                            English - A2 <br>
-                        </p>
+                        <div class="section_inner">
+                            <ul class="language-list">
+                                <li class="language-item">Russian - native</li>
+                                <li class="language-item">English - A2</li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
                 <div class="information_inner">
@@ -121,26 +127,33 @@
                         <h2 class="section_title">
                             Code Example
                         </h2>
-                        <p class="section_inner">
-                            <code>
-                                function strCount(obj){
-                                    let count = 0;
-                                    for (key in obj) {
-                                      if (typeof obj[key] == 'string') count++;
-                                      if (typeof obj[key] == 'object') count += strCount(obj[key]);
-                                    }
-                                    return count;
-                              }
-                            </code>
-                        </p>
+                        <div class="section_inner">
+                            <pre>
+                                <code class="js-example">
+<span class="js-blue">function</span> <span class="js-namefunc">strCount</span><span class="js-yellow">(</span><span class="js-sky">obj</span><span class="js-yellow">)</span><span class="js-yellow">{</span> 
+    <span class="js-blue">let</span> <span class="js-sky">count</span> <span class="js-namefunc">= 0;</span>
+    <span class="js-pink">for (</span><span class="js-sky">key</span> <span class="js-blue">in</span> <span class="js-sky">obj</span><span class="js-pink">) {</span>
+       <span class="js-pink">if</span> <span class="js-blue">(typeof</span> <span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span> <span class="js-namefunc">==</span><span class="js-grey">'string'</span><span class="js-blue">)</span> <span class="js-sky">count</span><span class="js-namefunc">++;</span>
+       <span class="js-pink">if</span> <span class="js-blue">(typeof</span> <span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span> <span class="js-namefunc">==</span><span class="js-grey">'object'</span><span class="js-blue">)</span> <span class="js-sky">count</span> <span class="js-namefunc">+=</span> <span class="js-namefunc">strCount</span><span class="js-blue">(</span></span><span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span><span class="js-blue">)</span><span class="js-namefunc">;</span>
+    <span class="js-pink">}</span>
+    <span class="js-sky">return</span> <span class="js-sky">count</span><span class="js-namefunc">;</span>
+<span class="js-pink">}</span></code>
+                            </pre>
+                        </div>
                     </section>
-                    <section class="Projects">
+                    <section class="projects">
                         <h2 class="section_title">
                             Projects
                         </h2>
-                        <p class="section_inner">
-                            <a href="#">My little project</a>
-                        </p>
+                        <div class="section_inner">
+                            <a href="https://linecoran.github.io/fractales/" class="project-link">
+                                <div class="project_item">
+                                    <img src="assets/fractales.png" alt="project photo" class="project_photo">
+                                    <div class="project_name">Fractales Shapes</div>
+                                    <div class="project_description">My little project about creating fractales in our life</div>
+                                </div>
+                            </a>
+                        </div>
                     </section>
                 </div>
             </section>
@@ -148,9 +161,16 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
-
-        </div>
+            <div class="footer-inner">
+                <div class="footer-inner_copyright">
+                    <p>&copy; Alexey Kuzmichev 2022</p>
+                </div>
+                <ul class="footer-inner_contact-links">
+                    <li class="contact-links_item"><a href="https://github.com/LineCoran" class="contact-links_link">Hithub</a></li>
+                    <li class="contact-links_item"><a href="https://www.linkedin.com/in/alexey-kuzmichev-4a5471239/" class="contact-links_link">LinkedIn</a></li>
+                    <li class="contact-links_item contact-links_item-rs "><a href="https://rs.school/js/" class="contact-links_link"><img src="assets/rs_school_js.svg" width="100px" height="30px" alt="rsshool logo" class="rsschool-logo"></a></li>
+                </ul>
+            </div>
     </footer>
 </body>
 
