@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>cv</title>
 </head>
 
@@ -75,17 +75,19 @@
                 </div>
             </section>
 
-            <section class="information">
+            <div class="information">
                 <div class="information_inner" id="left">
                     <section id="about">
                         <h2 class="section_title">
                             About me
                         </h2>
-                        <p class="section_inner">
+                        <div class="section_inner">
+                           <p class="section_inner-about">
                             After graduating from the Belarusian State University of Transport, I worked as a railway
                             designer. In the last three months, I discovered web development for myself. And right now,
                             my goal is to become a professional front-end developer.
-                        </p>
+                           </p>
+                        </div>
                     </section>
                     <section id="skills">
                         <h2 class="section_title">
@@ -93,7 +95,7 @@
                         </h2>
                         <div class="section_inner">
                             <ul class="skills-list">
-                                <li class="skills-item">Html</li>
+                                <li class="skills-item">HTML</li>
                                 <li class="skills-item">CSS</li>
                                 <li class="skills-item">JavaScript</li>
                             </ul>
@@ -104,10 +106,17 @@
                             Education
                         </h2>
                         <div class="section_inner">
-                            Belarusation State University of Transport - 2016-2021 <br>
-                            Civil Engineer <br>
-                            Belarusation State University of Transport - 2021 - 2023 <br>
-                            Master of Engineering
+                            <div class="education_inner">
+                                <div class="education_year">
+                                    2016 - 2021
+                                </div>
+                                <div class="education_name">
+                                    Belarusation State University of Transport
+                                </div>
+                                <div class="education_prof">
+                                    Civil Engineer
+                                </div>
+                            </div>
                         </div>
                     </section>
                     <section id="language">
@@ -116,8 +125,8 @@
                         </h2>
                         <div class="section_inner">
                             <ul class="language-list">
-                                <li class="language-item">Russian - native</li>
-                                <li class="language-item">English - A2</li>
+                                <li class="language-item"><span class="language-item-bold">Russian</span> - native</li>
+                                <li class="language-item"><span class="language-item-bold">English</span> - A2</li>
                             </ul>
                         </div>
                     </section>
@@ -134,7 +143,7 @@
     <span class="js-blue">let</span> <span class="js-sky">count</span> <span class="js-namefunc">= 0;</span>
     <span class="js-pink">for (</span><span class="js-sky">key</span> <span class="js-blue">in</span> <span class="js-sky">obj</span><span class="js-pink">) {</span>
        <span class="js-pink">if</span> <span class="js-blue">(typeof</span> <span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span> <span class="js-namefunc">==</span><span class="js-grey">'string'</span><span class="js-blue">)</span> <span class="js-sky">count</span><span class="js-namefunc">++;</span>
-       <span class="js-pink">if</span> <span class="js-blue">(typeof</span> <span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span> <span class="js-namefunc">==</span><span class="js-grey">'object'</span><span class="js-blue">)</span> <span class="js-sky">count</span> <span class="js-namefunc">+=</span> <span class="js-namefunc">strCount</span><span class="js-blue">(</span></span><span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span><span class="js-blue">)</span><span class="js-namefunc">;</span>
+       <span class="js-pink">if</span> <span class="js-blue">(typeof</span> <span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span> <span class="js-namefunc">==</span><span class="js-grey">'object'</span><span class="js-blue">)</span> <span class="js-sky">count</span> <span class="js-namefunc">+=</span> <span class="js-namefunc">strCount</span><span class="js-blue">(</span><span class="js-sky">obj</span><span class="js-yellow">[</span><span class="js-sky">key</span><span class="js-yellow">]</span><span class="js-blue">)</span><span class="js-namefunc">;</span>
     <span class="js-pink">}</span>
     <span class="js-sky">return</span> <span class="js-sky">count</span><span class="js-namefunc">;</span>
 <span class="js-pink">}</span></code>
@@ -156,7 +165,7 @@
                         </div>
                     </section>
                 </div>
-            </section>
+            </div>
 
         </div>
     </main>
@@ -168,7 +177,7 @@
                 <ul class="footer-inner_contact-links">
                     <li class="contact-links_item"><a href="https://github.com/LineCoran" class="contact-links_link">Hithub</a></li>
                     <li class="contact-links_item"><a href="https://www.linkedin.com/in/alexey-kuzmichev-4a5471239/" class="contact-links_link">LinkedIn</a></li>
-                    <li class="contact-links_item contact-links_item-rs "><a href="https://rs.school/js/" class="contact-links_link"><img src="assets/rs_school_js.svg" width="100px" height="30px" alt="rsshool logo" class="rsschool-logo"></a></li>
+                    <li class="contact-links_item contact-links_item-rs "><a href="https://rs.school/js/" class="contact-links_link"><img src="assets/rs_school_js.svg" width="100" height="30" alt="rsshool logo" class="rsschool-logo"></a></li>
                 </ul>
             </div>
     </footer>
