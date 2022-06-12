@@ -47,6 +47,7 @@ body {
     padding: 0px 50px;
 
     background-color: #151a1e;
+    transition: .2s linear; 
 }
 
 .nav_list {
@@ -163,12 +164,13 @@ body {
 .section_inner {
     margin-bottom: 60px;
 
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
 /* ===== Code Example ==== */
 pre {
+    font-size: 16px;
     padding: 10px 20px 0px 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, .2);
@@ -347,3 +349,107 @@ pre {
     background-color: #f8f0e4;
 }
 /* ===== Footer END ==== */
+
+/* Adaptive */
+
+@media (max-width: 1240px){
+    .profile {
+        flex-direction: column;
+    }
+    .profile_user {
+        flex-direction: column;
+    }
+
+    .information {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .information_inner {
+        width: 100%;
+    }
+
+    .user_avatar {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .user_family {
+       margin: 32px 0 24px;
+    }
+
+    section{
+        align-items: center;
+        text-align: center;
+    }
+
+    .section_inner {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    #left {
+        margin-right: 0px;
+    }
+
+    pre {
+        font-size: 12px;
+        text-align: start;
+        overflow: scroll;   
+    }
+
+    .education_year {
+        margin: 10px auto;
+        
+    }
+}
+
+@media (max-width: 1200px){
+
+    .container {
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    .header {
+        height: 100%;
+        padding: 40px 0;
+    }
+    .nav_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav_item {
+        margin: 10px 0px;
+    }
+    .nav_link {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .footer {
+        height: 100%;
+    }
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-inner_copyright {
+        margin: 10px 0;
+
+        font-size: 14px;
+    }
+
+    .footer-inner_contact-links {
+        margin-bottom: 15px;      
+    }
+
+    .contact-links_item {
+        font-size: 14px;
+    }
+}
