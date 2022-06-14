@@ -14,6 +14,8 @@
     --svg-icon: #f0f8e4;
     
     --rs-logo: #f8f0e4;
+
+    
   }
 
 * {
@@ -37,10 +39,6 @@ a {
 body {
     min-height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 
@@ -50,15 +48,19 @@ body {
 
 .theme {
     overflow: hidden;
-    min-height: 100vh;
+
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
     margin: 0 auto;
-    width: 100%;
-    max-width: 1800px;
+    max-width: 1920px;
+    
 }
 
 .container {
     margin: 0 auto;
-
     max-width: 1440px;
 }
 
@@ -76,6 +78,12 @@ body {
 
     background-color: var(--header);
     transition: 650ms ease-out;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav_list {
@@ -105,7 +113,7 @@ body {
 /* ??????=====new feature======????? */
 .choose-theme {
     position: absolute;
-    top: 20px;
+    top: 18px;
     right: 15px;
   }
 
@@ -114,15 +122,15 @@ body {
     display: block;
     width: 55px;
     height: 24px;
-    background: (var(--text));
+    background: var(--header);
     border: 2px solid var(--text);
     border-radius: 100px;
     cursor: pointer;
   }
   .choose-theme label:before {
     position: absolute;
-    width: 4000px;
-    height: 4000px;
+    width: 4250px;
+    height: 4250px;
     background: var(--background);
     z-index: 10;
     top: 0;
@@ -161,7 +169,7 @@ body {
     transform: translate3d(27px, 0, 0);
   }
   .choose-theme input:checked ~ label:before {
-    transform: translate3d(-84%, 23%, 0) scale(1);
+    transform: translate3d(-74%, 23%, 0) scale(1);
     transition: background 300ms ease-in-out, opacity 300ms ease-in-out, transform 1s ease-in-out;
     opacity: 1;
   }
@@ -200,7 +208,7 @@ body {
     border-radius: 50%;
     border: var(--title) 2px solid;
 
-    transition: 700ms linear;
+    transition: 900ms ease-out;
 }
 
 .user_name {
@@ -279,7 +287,7 @@ pre {
     border-radius: 10px;
     background-color: var(--code);
 
-    transition: 700ms linear;
+    transition: 1000ms ease-out;
 }
 
 .js-blue {
@@ -360,7 +368,7 @@ pre {
     font-style: normal;
     color: #f73859;
 
-    content: "< "; 
+    content: "<"; 
 }
 
 .skills-item:after {
@@ -437,8 +445,7 @@ pre {
 
 .footer-inner_copyright {
     width: 100%;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 22px;    
 }
 
 
@@ -450,8 +457,8 @@ pre {
 }
 
 .contact-links_item {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 22px;
+
     text-decoration: underline;  
 }
 
@@ -557,7 +564,8 @@ pre {
     .footer-inner_copyright {
         margin: 10px 0;
 
-        font-size: 14px;
+        font-size: 18px;
+        letter-spacing: 2px;
     }
 
     .footer-inner_contact-links {
